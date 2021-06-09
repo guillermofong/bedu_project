@@ -9,12 +9,21 @@ nav {
     top: 0;
 }
 
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
 li {
-    display: inline;
-    margin: 0 20px 0 20px;
+
+    /* margin: 0 20px 0 20px; */
     font-family: Arial, Helvetica, sans-serif;
     font-size: 23px;;
     color:springgreen;
+    justify-content: center;
+    font-weight: 500;
+
 }
 
 .frontimage {
@@ -28,10 +37,18 @@ li {
 
 .frontmessage {
     position: absolute;
-    left: 45%;
+    left: 20%;
     color: springgreen;
 }
 
+.card_container {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 100%;
+    bottom: 10%;
+
+}
 
 .card {
     box-shadow: 0 4px 8px 0;
