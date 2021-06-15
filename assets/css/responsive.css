@@ -1,0 +1,42 @@
+@media screen  and (max-width: 1280px) {
+
+}
+
+@media screen  and (max-width: 970px) {
+    nav ul li {
+        padding: 10px;
+    }
+}
+
+@media screen  and (max-width: 767px) {
+    .card_container {
+        flex-wrap: wrap;
+    }
+    
+    .card {
+        width: 270px;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen  and (max-width: 600px) {
+    nav, nav ul {
+        padding: 0;
+    }
+
+    nav ul li{
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+
+    .card {
+        width: 260px;
+    }
+
+
+}
+
+@media screen  and (max-width: 400px) {
+
+}
