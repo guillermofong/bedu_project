@@ -4,7 +4,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 50% 20%;
-    background-size: 70%;
+    background-size: 900px;
 }
 
 nav {
@@ -24,11 +24,13 @@ li {
 
     /* margin: 0 20px 0 20px; */
     display: inline;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
     font-size: 23px;
     padding: 20px 15px;
     color:springgreen;
+    /* color: yellow; */
     font-weight: 500;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 
 }
 
@@ -43,8 +45,11 @@ li {
 
 .frontmessage {
     position: absolute;
-    left: 20%;
+    left: 15%;
+    top: 18%;
+    /* margin-top: 150px; */
     color: springgreen;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 /* .containerimage {
