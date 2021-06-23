@@ -1,6 +1,6 @@
 body {
     background-color:#488DD3;
-    background-image: url('assets/images/Banner.png');
+    background-image: url('/assets/images/Banner.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 50% 20%;
