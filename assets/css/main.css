@@ -1,6 +1,9 @@
 body {
     background-color:#488DD3;
+<<<<<<< HEAD
     background-image: url('/assets/images/Banner.png');
+=======
+>>>>>>> 58aa48b0c2ec46a7bd861958e4edbad9a790c588
     background-image: url(' ../images/Banner.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
