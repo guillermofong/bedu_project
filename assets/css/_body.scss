@@ -1,0 +1,9 @@
+body {
+    background-color:$primary-color;
+    background-image: url('/assets/images/Banner.png');
+    background-image: url(' ../images/Banner.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 20%;
+    background-size: 900px;
+}

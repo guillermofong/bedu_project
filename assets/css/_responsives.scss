@@ -1,0 +1,52 @@
+
+
+@media screen  and (max-width: 970px) {
+    nav ul li {
+        padding: 10px;
+    }
+
+    .card_container {
+        flex-wrap: wrap;
+    }
+    
+    .card {
+        width: 330px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen  and (max-width: 767px) {
+
+    
+    .card {
+        width: 270px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen  and (max-width: 600px) {
+    nav, nav ul {
+        padding: 0;
+    }
+
+    nav ul li{
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+
+    .card {
+        width: 260px;
+        margin-bottom: 25px;
+    }
+
+    body {
+        background-image: none;
+    }
+
+    .frontmessage {
+        display: none;
+    }
+
+
+}
